@@ -28,7 +28,7 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Roboto";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -41,7 +41,7 @@ h1 {
   color: #FAF5DB;
   background-color: #CC2536;
   box-shadow: 0 5px 5px 0 rgba(0,0,0,.25);
-  font-size: 1.8em;;
+  font-size: 1.5em;
   margin: 15px 0;
   padding: 20px;
 }
