@@ -72,8 +72,7 @@ export default {
       const templateParams = {
         email: this.email
       }
-
-      emailjs.send( 'service_hl4d37f', 'template_z9fqvza', templateParams, 'pbjQPc_pRWu6hjfbw')
+      emailjs.send(process.env.VUE_APP_EMAILJS_SERVICE_ID, process.env.VUE_APP_EMAILJS_TEMPLATE_ID, templateParams, process.env.VUE_APP_EMAILJS_API_KEY)
       .then((result) => {
         return result
       }, (error) => {
