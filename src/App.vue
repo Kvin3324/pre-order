@@ -33,11 +33,16 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin: 30px 10px 60px;
 }
 
+
 h1 {
+  color: #FAF5DB;
+  background-color: #CC2536;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,.25);
   font-size: 1.8em;;
-  margin: 25px 0;
+  margin: 15px 0;
+  padding: 20px;
 }
 </style>

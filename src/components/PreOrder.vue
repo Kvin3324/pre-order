@@ -1,5 +1,5 @@
 <template>
-  <section class="preOrder">
+  <section class="pre-order">
     <div>
       <v-container>
         <v-row>
@@ -7,7 +7,7 @@
             cols="12"
             md="12"
           >
-            <h3 v-text="title" />
+            <h3 class="pre-order-title" v-text="title" />
             <form ref="form" @submit.prevent="sendEmail">
               <v-text-field
                 label="Adresse mail"
@@ -91,5 +91,10 @@ export default {
 
 .confirm-btn {
   margin: 20px 0;
+}
+
+h3 {
+  margin: 20px 0;
+  text-align: left;
 }
 </style>

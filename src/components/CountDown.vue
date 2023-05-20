@@ -54,10 +54,16 @@ export default {
 
 <style>
 .countdown {
-  margin: 50px 0
+  margin: 25px 0;
 }
 
 .timer {
-  margin: 40px 0
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  font-size: .95em;
+  font-weight: bold;
+  margin: 40px 0;
+  padding: 40px 15px;
 }
 </style>
