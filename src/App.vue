@@ -45,4 +45,12 @@ h1 {
   margin: 15px 0;
   padding: 20px;
 }
+
+@media screen and (min-width: 1300px)  {
+  #app {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
 </style>

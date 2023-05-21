@@ -54,7 +54,7 @@ export default {
 
 <style>
 .countdown {
-  margin: 25px 0;
+  margin-top: 25px;
 }
 
 .timer {
